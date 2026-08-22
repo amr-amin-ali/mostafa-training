@@ -3858,37 +3858,7 @@ select {
     margin-left: 12px;
     margin-right: 12px;
 }
-
-.amazon-footer-service {
-    display: block;
-    width: 100%;
-    height: 300px;
-    background-color: #131a22;
-    margin-top: -16px;
-}
-
-.amazon-footer-service-container {
-    display: inline-block;
-    width: 100%;
-    height: 114px;
-    margin-top: 16px;
-}
-
-.amazon-footer-service-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 134px;
-    margin-right: 363px;
-}
-
-.amazon-footer-service-list-item {
-    list-style-type: none;
-    line-height: 1;
-}
-
-.amazon-footer-service-list-item:hover {
+.amazon-footer-service-list-link:hover {
     text-decoration: underline white;
 }
 
@@ -3900,9 +3870,31 @@ select {
 }
 
 .amazon-footer-service-list-link-span {
-    color: #ddddd1;
+    color: #acaca6;
     font-family: "Amazon Ember";
     font-weight: 200;
+}
+.amazon-footer-servise-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 245px;
+    background-color: #131a22;
+}
+.amazon-footer-service-links{
+    display: block;
+    width: 70%;
+    height: 200px;
+    margin-left: 121px;
+    font-family: "Amazon Ember";
+
+}
+.amazon-footer-servise{
+   display: inline-block;
+   width: 23%;
+   height: 68px; 
+   margin-top: 30px;
+   margin: 0;
 }
 
 .amazon-footer-condition {
@@ -3911,14 +3903,15 @@ select {
     height: 100px;
     background-color: #131a22;
     line-height: 0;
-    margin-top: 54px;
+    margin-top: 12px;
 }
 
 .amazon-footer-condition-container {
     display: block;
     width: 700px;
     height: 100px;
-    margin-left: 592px;
+    margin-left: 488px;
+    margin-top: -54px;
 }
 
 .amazon-footer-condition-list {
@@ -3927,7 +3920,7 @@ select {
     justify-content: space-between;
     align-items: center;
     line-height: 1;
-    margin-left: -80px;
+    margin-left: -27px;
     margin-right: 340px;
     font-size: 12px;
 
@@ -3954,4 +3947,7 @@ select {
 
 .copyright {
     color: white;
+    font-size: 14px;
+    margin-left: 40px;
+
 }
