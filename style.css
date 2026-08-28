@@ -1126,6 +1126,12 @@ select {
     width: 271.61px;
     height: 2000px;
 }
+@media (max-width:20rem) {
+    .aside{
+        display: none;
+    }
+
+}
 
 .aside-product {
     display: block;
@@ -2038,17 +2044,14 @@ select {
 
 .product-grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(4,25%);
     grid-template-rows: repeat(4, 562.59px);
     grid-template-areas: "main main main main"
         "main main main main";
     column-gap: 10px;
 }
 
-.printer {
-    display: block;
-    grid-area: "main";
-}
+
 
 .printer-imag {
     display: block;
