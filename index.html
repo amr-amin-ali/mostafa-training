@@ -1,11 +1,11 @@
-<!doctype html>
+<!doctype >
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amazon.eg</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
       <!-- location item -->
       <div class="mainnav-location">
         <div class="location-item">
-          <img src="images/location.png" width="27px" height="27px">
+          <img src="images/headerpictures/location.png" width="27" height="27" alt="location">
         </div>
         <div class="mainnav-delivary">
           <span class="mainnav-delivary2">Delivering to New Cairo...</span>
@@ -31,9 +31,7 @@
         <!-- /location dropdown -->
       </div>
     </div>
-    </div>
     <!-- /location item -->
-    </div>
     <!-- search box -->
     <div class="search-box">
       <div class="searchbox-form">
@@ -57,7 +55,8 @@
     <div class="mainnav-right">
       <div class="mainnav-lang">
         <div class="mainnav-lang-button">
-          <img src="images/Egypt_flag_300.png" width="20px" height="15px"><span class="mainnav-en-lang">EN</span>
+          <img src="images/headerpictures/Egypt_flag_300.png" width="20" height="15" alt="Egypt flag">
+          <span class="mainnav-en-lang">EN</span>
         </div>
         <span class="mainnav-right-lang-button"></span>
         <!-- lang drobodown -->
@@ -77,7 +76,7 @@
                 <hr class="favourite-lang-line">
                 <!-- shopping language -->
                 <div class="favourite-lang-shopping">
-                  <img src="images/Egypt_flag_300.png" width="20px" height="12px">
+                  <img src="images/headerpictures/Egypt_flag_300.png" width="20" height="12" alt="Egypt flag">
                   <span>you are shopping on <br>Amazon.e</span>
                 </div>
                 <!-- /shopping language -->
@@ -193,13 +192,13 @@
                   <span class="prime-paragraph2">unlimited entertainment and more</span>
                 </div>
                 <div class="prime-photo">
-                  <img src="images/prime-photo.png" width="300px" height="300px">
+                  <img src="images/prime-photo.png" width="300" height="300" alt="prime photo">
                 </div>
                 <div class="prime-join">
                   <a href="#" class="prime-link">Join Prime</a>
                 </div>
                 <div class="prime-logo">
-                  <img src="images/prime-logo-rgb-prime-blue-master.png" width="70px" height="30px">
+                  <img src="images/prime-logo-rgb-prime-blue-master.png" width="70" height="30" alt="prime logo">
                 </div>
               </div>
               <!-- /prime drobdown -->
@@ -227,7 +226,7 @@
       </nav>
     </div>
     <div class="rightnav-picture">
-      <img src="images/Amazon stadium.png" width="418px" height="39px">
+      <img src="images/headerpictures/Amazon-stadium.png" width="418" height="39" alt="amazon stadium">
       <div>
         <div></div>
       </div>
@@ -236,7 +235,7 @@
   <!-- header navbar/ -->
   <!-- amazon featured -->
   <div class="amazon-featured">
-    <h1 class="amazon-featured__head">
+    <div class="amazon-featured__head">
       <div class="amazon-result">
         <div class="amazon-result-container">
           <div class="amazon-result_info">
@@ -259,7 +258,7 @@
           </div>
         </div>
       </div>
-    </h1>
+    </div>
   </div>
   <!-- amazon featured/ -->
   <!-- product container -->
@@ -270,20 +269,20 @@
           <!-- fulfilled by amazon -->
           <h4 class="aside-product-checkboxes-fullfilled-head">Fulfilled by Amazon</h4>
           <div class="aside-product-checkboxes-fullfilled">
+            <input type="checkbox" id="Fulfilled-by-Amazon" class="checkbox">
+            <div class="aside-product-checkboxes-fullfilled-arrow">
+              <div class="aside-product-checkboxes-fullfilled-mirror"></div>
+            </div>
             <a href="#" class="aside-product-checkboxes-fullfilled-form-link">
-              <input type="checkbox" id="Fulfilled-by-Amazon" class="checkbox">
-              <div class="aside-product-checkboxes-fullfilled-arrow">
-                <div class="aside-product-checkboxes-fullfilled-mirror"></div>
-              </div>
-              <span class="aside-product-checkboxes-fullfilled-span">&#124; Fulfilled by Amazon</span>
+              <span class="aside-product-checkboxes-fullfilled-span">&#124;Fulfilled by Amazon</span>
             </a>
           </div>
           <!-- fulfilled by amazon/ -->
           <!-- free shipping -->
           <div class="free-shipping-container">
             <h4 class="free-shipping-head">Eligible for Free Shipping</h4>
+            <input type="checkbox" id="free-shipping" class="checkbox">
             <a href="#" class="free-shipping-link">
-              <input type="checkbox" id="free-shipping" class="checkbox">
               Free shipping<br>
               All customers get FREE Shipping on<br>
               orders shipped by Amazon
@@ -293,37 +292,38 @@
           <!-- delevary day -->
           <div class="delevary-day-container">
             <h4 class="delevary-day-head">Delivery Day</h4>
+            <input type="checkbox" id="delevary-day" class="checkbox">
             <a href="#" class="delevary-day-link">
-              <input type="checkbox" id="delevary-day" class="checkbox">
               Get It by Tomorrow</a>
           </div>
           <!-- dalevary day / -->
           <!-- gender -->
           <div class="gender-container">
             <h4 class="gender-head">Gender</h4>
+            <input type="checkbox" id="men" class="checkbox">Men
+            <a href="#" class="gender-link"></a><br>
+            <input type="checkbox" id="women" class="checkbox">
             <a href="#" class="gender-link">
-              <input type="checkbox" id="men" class="checkbox">Men
+              women
             </a><br>
+            <input type="checkbox" id="boys" class="checkbox">Boys
             <a href="#" class="gender-link">
-              <input type="checkbox" id="women" class="checkbox">women
             </a><br>
+            <input type="checkbox" id="girls" class="checkbox">
             <a href="#" class="gender-link">
-              <input type="checkbox" id="boys" class="checkbox">Boys
-            </a><br>
-            <a href="#" class="gender-link"><input type="checkbox" id="girls" class="checkbox">
               Girls
             </a><br>
+            <input type="checkbox" id="babies" class="checkbox">Babies
             <a href="#" class="gender-link">
-              <input type="checkbox" id="babies" class="checkbox">Babies
             </a><br>
+            <input type="checkbox" id="unisex" class="checkbox">Unisex
             <a href="#" class="gender-link">
-              <input type="checkbox" id="unisex" class="checkbox">Unisex
             </a>
           </div>
           <!-- grnder/ -->
         </div>
         <!-- aside category -->
-        <h1 class="aside-category">Category</h1>
+        <h2 class="aside-category">Category</h2>
         <nav class="aside-nav">
           <ul class="aside-ul">
             <li class="aside-list">
@@ -355,7 +355,7 @@
         <!-- aside category/ -->
         <!-- aside customer reviews -->
         <div class="aside-custumer-reviews-container">
-          <h4 class="aside-custumer-reviews-container-head">Customer Reviews</h4>
+          <h2 class="aside-custumer-reviews-container-head">Customer Reviews</h2>
           <div class="aside-custumer-reviews-container-valuation">
             <span class="aside-custumer-reviews-container-valuation-span">&up</span>
           </div>
@@ -363,27 +363,32 @@
         <!-- aside customer reviews/ -->
         <!-- aside brands -->
         <div class="aside-brands-container">
-          <h4 class="aside-brands-head">Brands</h4>
+          <h2 class="aside-brands-head">Brands</h2>
+          <input type="checkbox" id="LC-WAIKIKI" class="checkbox">LC WAIKIKI
+          <a href="#" class="aside-brands-link"></a><br>
+          <input type="checkbox" id="American-Eagle" class="checkbox">
           <a href="#" class="aside-brands-link">
-            <input type="checkbox" id="LC-WAIKIKI" class="checkbox">LC WAIKIKI
+            American Eagle
           </a><br>
+          <input type="checkbox" id="Future" class="checkbox">
           <a href="#" class="aside-brands-link">
-            <input type="checkbox" id="American-Eagle" class="checkbox">American Eagle
+            Future
           </a><br>
+          <input type="checkbox" id="M-D-Stay-Fit" class="checkbox">
           <a href="#" class="aside-brands-link">
-            <input type="checkbox" id="Future" class="checkbox">Future
+            M D Stay Fit
           </a><br>
+          <input type="checkbox" id="Spaceshoop" class="checkbox">
           <a href="#" class="aside-brands-link">
-            <input type="checkbox" id="M-D-Stay-Fit" class="checkbox">M D Stay Fit
+            Spaceshoop
           </a><br>
+          <input type="checkbox" id="KOTON" class="checkbox">
           <a href="#" class="aside-brands-link">
-            <input type="checkbox" id="Spaceshoop" class="checkbox">Spaceshoop
+            KOTON
           </a><br>
+          <input type="checkbox" id="AJYAL" class="checkbox">
           <a href="#" class="aside-brands-link">
-            <input type="checkbox" id="KOTON" class="checkbox">KOTON
-          </a><br>
-          <a href="#" class="aside-brands-link">
-            <input type="checkbox" id="AJYAL" class="checkbox">AJYAL
+            AJYAL
           </a><br>
           <div class="aside-brand-see-more-container">
             <div class="aside-brand-see-more"></div>
@@ -455,11 +460,13 @@
         <!-- aside condition -->
         <div class="aside-condition">
           <h3 class="aside-condition-head">Condition </h3>
+          <input type="checkbox" id="new" class="checkbox">
           <a href="#" class="aside-new-link">
-            <input type="checkbox" id="new" class="checkbox">New
+            New
           </a><br>
+          <input type="checkbox" id="used" class="checkbox">
           <a href="#" class="aside-used-link">
-            <input type="checkbox" id="used" class="checkbox">Used
+            Used
           </a><br>
         </div>
         <!-- aside condition/ -->
@@ -491,8 +498,8 @@
         <!-- aviliability -->
         <div class="aside-aviliability-container">
           <h3 class="aside-aviliability-container">Availability </h3>
+          <input type="checkbox" id="Include-Out-of-Stock" class="checkbox">
           <a href="#" class="aside-aviliability-link">
-            <input type="checkbox" id="Include-Out-of-Stock" class="checkbox">
             Include Out of Stock
           </a>
         </div>
@@ -508,41 +515,53 @@
         <!-- Apparel Pattern -->
         <div class="aside-brands-container">
           <h4 class="aside-Apparel-Pattern-head">Apparel Pattern</h4>
+          <input type="checkbox" id="solid" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="men" class="checkbox">Solid
+            Solid
           </a><br>
+          <input type="checkbox" id="striped" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="women" class="checkbox">Striped
+            Striped
           </a><br>
+          <input type="checkbox" id="letter-print" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="Future" class="checkbox">Letter Print
+            Letter Print
           </a><br>
+          <input type="checkbox" id="animal-print" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="M D-Stay-Fit" class="checkbox">Animal Print
+            Animal Print
           </a><br>
+          <input type="checkbox" id="camouflage" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="Spaceshoop" class="checkbox">Camouflage
+            Camouflage
           </a><br>
+          <input type="checkbox" id="checkered" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="KOTON" class="checkbox">Checkered
+            Checkered
           </a><br>
+          <input type="checkbox" id="floral" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="AJYAL" class="checkbox">Floral
+            Floral
           </a><br>
+          <input type="checkbox" id="fruits" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="M D-Stay-Fit" class="checkbox">Fruits
+            Fruits
           </a><br>
+          <input type="checkbox" id="geometric" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="Spaceshoop" class="checkbox">Geometric
+            Geometric
           </a><br>
+          <input type="checkbox" id="hearts" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="KOTON" class="checkbox">Hearts
+            Hearts
           </a><br>
+          <input type="checkbox" id="plaid" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="AJYAL" class="checkbox">Plaid
+            Plaid
           </a><br>
+          <input type="checkbox" id="stars" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="AJYAL" class="checkbox">Stars
+            Stars
           </a>
           <div class="aside-brand-see-more-container">
             <div class="aside-brand-see-more">
@@ -554,11 +573,13 @@
         <!-- seller -->
         <div class="aside-seller">
           <h3 class="aside-seller-head">Seller</h3>
+          <input type="checkbox" id="Amazon.eg" class="checkbox">
           <a href="#" class="aside-seller-link">
-            <input type="checkbox" id="Amazon.eg" class="checkbox">Amazon.eg
+            Amazon.eg
           </a><br>
+          <input type="checkbox" id="المصري-للاكسسوارات" class="checkbox">
           <a href="#" class="aside-Apparel-Pattern-link">
-            <input type="checkbox" id="المصري- للاكسسوارات" class="checkbox"> المصرية للاكسسوارات
+            المصرية للاكسسوارات
           </a>
           <div class="aside-brand-see-more-container">
             <div class="aside-brand-see-more"></div>
@@ -569,23 +590,28 @@
         <!-- Clothing Material -->
         <div class="aside-clothing-material">
           <h3 class="aside-clothing-material-head">Cotton</h3>
+          <input type="checkbox" id="Synthetic" class="checkbox">
           <a href="#" class="aside-clothing-link">
-            <input type="checkbox" id="Synthetic" class="checkbox">Synthetic
+            Synthetic
+          </a><br>
+          <input type="checkbox" id="Wool" class="checkbox">
+          <a href="#" class="aside-clothing-link">
+            Wool
+          </a><br>
+          <input type="checkbox" id="Art-Silk" class="checkbox">
+          <a href="#" class="aside-clothing-link">
+            Art Silk
+          </a><br>
+          <input type="checkbox" id="Chiffon" class="checkbox">
+          <a href="#" class="aside-clothing-link">
+            Chiffon
           </a><br>
           <a href="#" class="aside-clothing-link">
-            <input type="checkbox" id="Wool" class="checkbox">Wool
+            Down
           </a><br>
+          <input type="checkbox" id="Down" class="checkbox">
           <a href="#" class="aside-clothing-link">
-            <input type="checkbox" id="Art-Silk" class="checkbox">Art Silk
-          </a><br>
-          <a href="#" class="aside-clothing-link">
-            <input type="checkbox" id="Chiffon" class="checkbox">Chiffon
-          </a><br>
-          <a href="#" class="aside-clothing-link">
-            <input type="checkbox" id="Down" class="checkbox">Down
-          </a><br>
-          <a href="#" class="aside-clothing-link">
-            <input type="checkbox" id="Felt" class="checkbox">Felt
+            Felt
           </a>
           <div class="aside-brand-see-more-container">
             <div class="aside-brand-see-more"></div>
@@ -606,7 +632,7 @@
       <div class="product-grid-container">
         <div class="printer">
           <div class="printer-imag">
-            <a href="#"><img src="images/printer.jpg" width="270px" height="177px"></a>
+            <a href="#"><img src="images/productspicture/printer.jpg" width="242" height="177" alt="printer"></a>
           </div>
           <div class="printer-data-container">
             <div class="sponsored">
@@ -636,7 +662,7 @@
               <div class="printer-discount">
                 <a href="#" class="printer-discount-link">
                   <span>
-                    <sup c>EGP</sup>
+                    <sup>EGP</sup>
                     <span class="printer-discount-after">4,070</span>
                     <sup>00</sup>
                   </span>
@@ -658,7 +684,7 @@
         <!-- comfort product -->
         <article class="comfort">
           <div>
-            <a href="#"><img src="images/comfort.webp" width="242px" height="217px"></a>
+            <a href="#"><img src="images/productspicture/comfort.webp" width="242" height="217" alt="comfort"></a>
           </div>
           <div class="comfort-data">
             <div class="sponsored">
@@ -706,7 +732,7 @@
           <div class="aladl-tec">
             <h1 class="aladl-tec-info">
               <a href="#">
-                <img src="images/aladl tec.jpg" width="242px" height="92px">
+                <img src="images/productspicture/aladl-tec.jpg" width="242" height="92" alt="aladl tec">
               </a>
             </h1>
           </div>
@@ -727,19 +753,19 @@
               <span class="sponsored-icon-word">i</span>
             </div>
           </div>
-          <h1 class="aladl-tec-data">
+          <p class="aladl-tec-data">
             <a href="#" class="aladl-tec-discount">
               <span class="aladl-tec-discount-nomber"> هاتف العدل الارضي بخاصيه اظهار<br> الرقم</span>
             </a>
-          </h1>
+          </p>
           <!-- customer valuation -->
           <div class="custumer-valuation">
             <span class="custumer-valuation-nomber">5.0</span>
             <span class="americanegle-rating-star">
-              <img src="images/Pasted image.png" width="60px" height="20px">
+              <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pastedimage">
             </span>
             <span class="stars-arrow">
-              <img src="images/stars-arrow.png">
+              <img src="images/arrows/stars-arrow.png" alt="stars arrow">
             </span>
             <a href="#" class="custumer-valuation-link"> (1) </a>
             <!-- customer valuation popover -->
@@ -747,7 +773,7 @@
               <div class="custumer-valuation-popover-content">
                 <h1 class="custumer-valuation-popover-head">
                   <span class="americanegle-rating-star">
-                    <img src="images/Pasted image.png" width="60px" height="20px">
+                    <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                   </span>
                   <span class="popover-head">5 out of 5</span>
                 </h1>
@@ -809,7 +835,7 @@
         <article class="towel">
           <div>
             <a href="#">
-              <img src="images/towel.png" width="242px" height="220px">
+              <img src="images/productspicture/towel.png" width="242" height="220" alt="towel">
             </a>
           </div>
           <div class="towel-data">
@@ -851,7 +877,7 @@
           <div class="kindel">
             <div class="kindel-information">
               <a href="#">
-                <img src="images/kindel.png" width="238px" height="242px">
+                <img src="images/productspicture/kindel.png" width="238" height="242" alt="kindel">
               </a>
             </div>
             <div class="kindel-data-container">
@@ -867,10 +893,10 @@
                 <div class="custumer-valuation">
                   <span class="custumer-valuation-nomber">4.8</span>
                   <span class="americanegle-rating-star">
-                    <img src="images/Pasted image.png" width="60px" height="20px">
+                    <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                   </span>
                   <span class="stars-arrow">
-                    <img src="images/stars-arrow.png">
+                    <img src="images/arrows/stars-arrow.png" alt="stars arrow">
                   </span>
                   <a href="#" class="custumer-valuation-link"> (1) </a>
                   <!-- customer valuation popover -->
@@ -878,7 +904,7 @@
                     <div class="custumer-valuation-popover-content">
                       <h1 class="custumer-valuation-popover-head">
                         <span class="americanegle-rating-star">
-                          <img src="images/Pasted image.png" width="60px" height="20px">
+                          <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                         </span>
                         <span class="popover-head">4.8 out of 5</span>
                       </h1>
@@ -914,7 +940,7 @@
                       </div>
                       <div class="customer-reviews">
                         <a href="#" class="custumer-reviews-link">see customer reviews</a>
-                        <span>&#8250;</span>
+                        <span>&#8250</span>
                       </div>
                     </div>
                   </div>
@@ -947,6 +973,7 @@
                 </div>
               </div>
             </div>
+          </div>
         </article>
         <!-- kindel tablet/ -->
         <!-- blender cup -->
@@ -955,7 +982,7 @@
             <div class="blender-cup-information">
               <div class="blender-cup-image">
                 <a href="#">
-                  <img src="images/blender cup.jpg" width="97px" height="242px">
+                  <img src="images/productspicture/blender-cup.jpg" width="97" height="242" alt="blender cup">
                 </a>
               </div>
               <div class="blender-cup-information-links">
@@ -968,10 +995,10 @@
                 <div class="custumer-valuation">
                   <span class="custumer-valuation-nomber">2.4</span>
                   <span class="americanegle-rating-star">
-                    <img src="images/Pasted image.png" width="60px" height="20px">
+                    <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                   </span>
                   <span class="stars-arrow">
-                    <img src="images/stars-arrow.png">
+                    <img src="images/arrows/stars-arrow.png" alt="stars arrow">
                   </span>
                   <a href="#" class="custumer-valuation-link"> (222) </a>
                   <!-- customer valuation popover -->
@@ -979,7 +1006,7 @@
                     <div class="custumer-valuation-popover-content">
                       <h1 class="custumer-valuation-popover-head">
                         <span class="americanegle-rating-star">
-                          <img src="images/Pasted image.png" width="60px" height="20px">
+                          <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                         </span>
                         <span class="popover-head">5 out of 5</span>
                       </h1>
@@ -1031,15 +1058,12 @@
                 <span class="blender-cup-discount-presentage">
                   10% off NBE Visa Signature Credit Cards
                 </span>
-                <span class="blender-cup-discount-info">
-                  <span class="blender-cup-discount-info">FREE delivery</span>
-                  <span class="blender-cup-discount-day"> Wed, 29 Jul</span>
-                  <span>on your</span><br>
-                  firist order</span>
+                <span class="blender-cup-discount-info">FREE delivery</span>
+                <span class="blender-cup-discount-day"> Wed, 29 Jul</span>
+                <span>on your<br>firist order</span>
                 <br>
                 <span> Or fastest delivery </span>
                 <span class="blender-cup-discount-month">Tomorrow, 28 Jul</span>
-                </span>
                 <div class="blender-cup-cart">
                   <div class="blender-cup-cart-link-container">
                     <a href="#" class="blender-cup-cart-link">Add to cart</a>
@@ -1054,7 +1078,7 @@
         <article class="food-group">
           <div class="food-information">
             <a href="#">
-              <img src="images/food.jpg" width="242px" height="138px">
+              <img src="images/productspicture/food.jpg" width="242" height="138" alt="food">
             </a>
           </div>
           <div class="food-data">
@@ -1068,10 +1092,10 @@
             <div class="custumer-valuation">
               <span class="custumer-valuation-nomber">4.6</span>
               <span class="americanegle-rating-star">
-                <img src="images/Pasted image.png" width="60px" height="20px">
+                <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
               </span>
               <span class="stars-arrow">
-                <img src="images/stars-arrow.png">
+                <img src="images/arrows/stars-arrow.png" alt="stars arrow">
               </span>
               <a href="#" class="custumer-valuation-link"> (286) </a>
               <!-- customer valuation popover -->
@@ -1079,7 +1103,7 @@
                 <div class="custumer-valuation-popover-content">
                   <h1 class="custumer-valuation-popover-head">
                     <span class="americanegle-rating-star">
-                      <img src="images/Pasted image.png" width="60px" height="20px">
+                      <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                     </span>
                     <span class="popover-head">4.6 out of 5</span>
                   </h1>
@@ -1152,7 +1176,7 @@
         <article class="smart-watch">
           <div class="smart-watch-image">
             <a href="#">
-              <img src="images/smart watch.jpg" width="242px" height="230px">
+              <img src="images/productspicture/smart-watch.jpg" width="242" height="230" alt="smart watch">
             </a>
           </div>
           <div class="smart-watch-data">
@@ -1169,10 +1193,10 @@
             <div class="custumer-valuation">
               <span class="custumer-valuation-nomber">4.6</span>
               <span class="americanegle-rating-star">
-                <img src="images/Pasted image.png" width="60px" height="20px">
+                <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
               </span>
               <span class="stars-arrow">
-                <img src="images/stars-arrow.png">
+                <img src="images/arrows/stars-arrow.png" alt="stars arrow">
               </span>
               <a href="#" class="custumer-valuation-link"> (5.2k) </a>
               <!-- customer valuation popover -->
@@ -1180,7 +1204,7 @@
                 <div class="custumer-valuation-popover-content">
                   <h1 class="custumer-valuation-popover-head">
                     <span class="americanegle-rating-star">
-                      <img src="images/Pasted image.png" width="60px" height="20px">
+                      <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                     </span>
                     <span class="popover-head">4.4out of 5</span>
                   </h1>
@@ -1253,7 +1277,7 @@
           <div class="hand-mixer-container">
             <div class="hand-mixer-image">
               <a href="#">
-                <img src="images/hand mixer.jpg" width="242px" height="156px">
+                <img src="images/productspicture/hand-mixer.jpg" width="242" height="156" alt="hand mixer">
               </a>
             </div>
             <div class="hand-mixer-data">
@@ -1265,20 +1289,20 @@
               <div class="custumer-valuation">
                 <span class="custumer-valuation-nomber">1.2</span>
                 <span class="americanegle-rating-star">
-                  <img src="images/Pasted image.png" width="60px" height="20px">
+                  <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                 </span>
-                <span class="stars-arrow"><img src="images/stars-arrow.png"></span>
+                <span class="stars-arrow"><img src="images/arrows/stars-arrow.png" alt="stars arrow"></span>
                 <a href="#" class="custumer-valuation-link"> (3) </a>
                 <!-- customer valuation popover -->
                 <div class="custumer-valuation-popover">
                   <div class="custumer-valuation-popover-content">
                     <h1 class="custumer-valuation-popover-head">
                       <span class="americanegle-rating-star">
-                        <img src="images/Pasted image.png" width="60px" height="20px">
+                        <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                       </span>
                       <span class="popover-head">1.2 out of 5</span>
                     </h1>
-                    <h2 class="customer-global-rating">1 global rating</span></h2>
+                    <h2 class="customer-global-rating">global rating</h2>
                     <div class="popover-valuation">
                       <div class="custumer-heigh-rating">
                         <span class="five-stars">5 stars</span>
@@ -1343,7 +1367,7 @@
           <div class="salon-container">
             <div class="salon-chair-image">
               <a href="#">
-                <img src="images/salon chair.jpg" width="242px" height="216px">
+                <img src="images/productspicture/salon-chair.jpg" width="242" height="216" alt="salon chair">
               </a>
             </div>
             <div class="salon-chair-data">
@@ -1357,16 +1381,16 @@
               <div class="custumer-valuation">
                 <span class="custumer-valuation-nomber">4.3</span>
                 <span class="americanegle-rating-star">
-                  <img src="images/Pasted image.png" width="60px" height="20px">
+                  <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                 </span>
-                <span class="stars-arrow"><img src="images/stars-arrow.png"></span>
+                <span class="stars-arrow"><img src="images/arrows/stars-arrow.png" alt="stars arrow"></span>
                 <a href="#" class="custumer-valuation-link"> (19) </a>
                 <!-- customer valuation popover -->
                 <div class="custumer-valuation-popover">
                   <div class="custumer-valuation-popover-content">
                     <h1 class="custumer-valuation-popover-head">
                       <span class="americanegle-rating-star">
-                        <img src="images/Pasted image.png" width="60px" height="20px">
+                        <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                       </span>
                       <span class="popover-head">4.3 out of 5</span>
                     </h1>
@@ -1374,8 +1398,7 @@
                     <div class="popover-valuation">
                       <div class="custumer-heigh-rating">
                         <span class="five-stars">5 stars</span>
-                        <div class="custumer-full-rating">
-                        </div>
+                        <div class="custumer-full-rating"></div>
                         <span class="hight-rate">100%</span>
                       </div>
                       <div class="custumer-rating">
@@ -1428,7 +1451,7 @@
           <div class="kindel">
             <div class="kindel-information">
               <a href="#">
-                <img src="images/kindel colorsoft .jpg" width="236px" height="242px">
+                <img src="images/productspicture/kindel-colorsoft.jpg" width="236" height="242" alt="kindel colorsoft">
               </a>
             </div>
             <div class="kindel-colorsoft-data-container">
@@ -1443,16 +1466,16 @@
                 <div class="custumer-valuation">
                   <span class="custumer-valuation-nomber">4.5</span>
                   <span class="americanegle-rating-star">
-                    <img src="images/Pasted image.png" width="60px" height="20px">
+                    <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                   </span>
-                  <span class="stars-arrow"><img src="images/stars-arrow.png"></span>
+                  <span class="stars-arrow"><img src="images/arrows/stars-arrow.png" alt="stars arrow"></span>
                   <a href="#" class="custumer-valuation-link"> (3.4k) </a>
                   <!-- customer valuation popover -->
                   <div class="custumer-valuation-popover">
                     <div class="custumer-valuation-popover-content">
                       <h1 class="custumer-valuation-popover-head">
                         <span class="americanegle-rating-star">
-                          <img src="images/Pasted image.png" width="60px" height="20px">
+                          <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                         </span>
                         <span class="popover-head">4.5 out of 5</span>
                       </h1>
@@ -1519,6 +1542,7 @@
                 </div>
               </div>
             </div>
+          </div>
         </article>
         <!-- kindel colorsoft tablet/ -->
         <!-- shelf locker/ -->
@@ -1526,7 +1550,7 @@
           <div class="shelf-locker-container">
             <div class="shelf-locker-image">
               <a href="#">
-                <img src="images/shelf locker.jpg" width="178px" height="242px">
+                <img src="images/productspicture/shelf-locker.jpg" width="178" height="242" alt="shelf locker">
               </a>
             </div>
             <div class="shelf-locker-data">
@@ -1539,22 +1563,22 @@
               <div class="custumer-valuation">
                 <span class="custumer-valuation-nomber">4.2</span>
                 <span class="americanegle-rating-star">
-                  <img src="images/Pasted image.png" width="60px" height="20px">
+                  <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                 </span>
                 <span class="stars-arrow">
-                  <img src="images/stars-arrow.png">
+                  <img src="images/arrows/stars-arrow.png" alt="stars arrow">
                 </span>
                 <a href="#" class="custumer-valuation-link"> (801k) </a>
                 <!-- customer valuation popover -->
                 <div class="custumer-valuation-popover">
                   <div class="custumer-valuation-popover-content">
-                    <h1 class="custumer-valuation-popover-head">
+                    <h2 class="custumer-valuation-popover-head">
                       <span class="americanegle-rating-star">
-                        <img src="images/Pasted image.png" width="60px" height="20px">
+                        <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                       </span>
                       <span class="popover-head">4.2 out of 5</span>
-                    </h1>
-                    <h2 class="customer-global-rating">29,180 global rating</h2>
+                    </h2>
+                    <h3 class="customer-global-rating">29,180 global rating</h3>
                     <div class="popover-valuation">
                       <div class="custumer-heigh-rating">
                         <span class="five-stars">5 stars</span>
@@ -1618,11 +1642,11 @@
           <div class="kindel">
             <div class="kindel-information">
               <a href="#">
-                <img src="images/kindel peperwhite.jpg" width="236px" height="242px">
+                <img src="images/productspicture/kindel-peperwhite.jpg" width="236" height="242" alt="kindel colorsoft">
               </a>
             </div>
             <div class="kindel-colorsoft-data-container">
-              <h1 class="kindel-white-pepper-head">Amazon</h1>
+              <h2 class="kindel-white-pepper-head">Amazon</h2>
               <div class="kindel-data">
                 <a href="#" class="kindel-tab-specification">
                   Kindle Paperwhite (16 GB) – Our<br>
@@ -1634,22 +1658,22 @@
                 <div class="custumer-valuation">
                   <span class="custumer-valuation-nomber">4.7</span>
                   <span class="americanegle-rating-star">
-                    <img src="images/Pasted image.png" width="60px" height="20px" />
+                    <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                   </span>
                   <span class="stars-arrow">
-                    <img src="images/stars-arrow.png">
+                    <img src="images/arrows/stars-arrow.png" alt="stars arrow">
                   </span>
                   <a href="#" class="custumer-valuation-link"> (13.3k) </a>
                   <!-- customer valuation popover -->
                   <div class="custumer-valuation-popover">
                     <div class="custumer-valuation-popover-content">
-                      <h1 class="custumer-valuation-popover-head">
+                      <h2 class="custumer-valuation-popover-head">
                         <span class="americanegle-rating-star">
-                          <img src="images/Pasted image.png" width="60px" height="20px">
+                          <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                         </span>
                         <span class="popover-head">4.7 out of 5</span>
-                      </h1>
-                      <h2 class="customer-global-rating">29,180 global rating</h2>
+                      </h2>
+                      <h3 class="customer-global-rating">29,180 global rating</h3>
                       <div class="popover-valuation">
                         <div class="custumer-heigh-rating">
                           <span class="five-stars">5 stars</span>
@@ -1702,13 +1726,13 @@
               <span class="kindel-white-pepper-stuck-status">
                 Temporarily out of stock.
               </span>
-              </span>
               <div class="kandel-cart">
                 <div class="kandel-cart-link-container">
-                  <a href="#" class="kindel-cart-link">Add to cart</a>/div>
+                  <a href="#" class="kindel-cart-link">Add to cart</a>
                 </div>
               </div>
             </div>
+          </div>
         </article>
         <!-- kindel white pepper/ -->
         <!-- wirelwss earphones -->
@@ -1716,7 +1740,7 @@
           <div class="wirelwss-earphones-container">
             <div class="wirelwss-earphones-image">
               <a href="#">
-                <img src="images/wireless earphones.jpg" width="242px" height="149px">
+                <img src="images/productspicture/wireless-earphones.jpg" width="242" height="149" alt="wireless earphones">
               </a>
             </div>
             <div class="wirelwss-earphones-data">
@@ -1731,16 +1755,16 @@
               <div class="custumer-valuation">
                 <span class="custumer-valuation-nomber">4.3</span>
                 <span class="americanegle-rating-star">
-                  <img src="images/Pasted image.png" width="60px" height="20px">
+                  <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                 </span>
-                <span class="stars-arrow"><img src="images/stars-arrow.png"></span>
+                <span class="stars-arrow"><img src="images/arrows/stars-arrow.png" alt="stars arrow"></span>
                 <a href="#" class="custumer-valuation-link"> (315k) </a>
                 <!-- customer valuation popover -->
                 <div class="custumer-valuation-popover">
                   <div class="custumer-valuation-popover-content">
                     <h2 class="custumer-valuation-popover-head">
                       <span class="americanegle-rating-star">
-                        <img src="images/Pasted image.png" width="60px" height="20px">
+                        <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                       </span>
                       <span class="popover-head">4.3 out of 5</span>
                     </h2>
@@ -1815,7 +1839,7 @@
           <div class="wifi-jack-container">
             <div class="wifi-jack-image">
               <a href="#">
-                <img src="images/wifi jack.jpg" width="208px" height="242px">
+                <img src="images/productspicture/wifi-jack.jpg" width="208" height="242" alt="wifi jack">
               </a>
             </div>
             <div class="wifi-jack-data">
@@ -1829,16 +1853,16 @@
               <div class="custumer-valuation">
                 <span class="custumer-valuation-nomber">4.3</span>
                 <span class="americanegle-rating-star">
-                  <img src="images/Pasted image.png" width="60px" height="20px">
+                  <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                 </span>
-                <span class="stars-arrow"><img src="images/stars-arrow.png"></span>
+                <span class="stars-arrow"><img src="images/arrows/stars-arrow.png" alt="stars arrow"></span>
                 <a href="#" class="custumer-valuation-link"> (25.7k) </a>
                 <!-- customer valuation popover -->
                 <div class="custumer-valuation-popover">
                   <div class="custumer-valuation-popover-content">
                     <h2 class="custumer-valuation-popover-head">
                       <span class="americanegle-rating-star">
-                        <img src="images/Pasted image.png" width="60px" height="20px">
+                        <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                       </span>
                       <span class="popover-head">4.3 out of 5</span>
                     </h2>
@@ -1912,11 +1936,11 @@
           <div class="study-disk-container">
             <div class="staudy-disk-image">
               <a href="#">
-                <img src="images/studt disk.jpg" width="242px" height="242px">
+                <img src="images/productspicture/study-disk.jpg" width="242" height="242" alt="study disk">
               </a>
             </div>
             <div class="staudy-disk-data">
-              <h1 class="staudy-disk-data-head">Amazon Brand - Umi</h1>
+              <h2 class="staudy-disk-data-head">Amazon Brand - Umi</h2>
               <a href="#" class="staudy-disk-data-link">
                 Height-Adjustable Faux Leather <br>
                 Office Executive Study Desk<br>
@@ -1927,17 +1951,18 @@
               <div class="custumer-valuation">
                 <span class="custumer-valuation-nomber">4.2</span>
                 <span class="americanegle-rating-star">
-                  <img src="images/Pasted image.png" width="60px" height="20px">
+                  <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                 </span>
                 <span class="stars-arrow">
-                  <img src="images/stars-arrow.png"></span>
+                  <img src="images/arrows/stars-arrow.png" alt="stars arrow">
+                </span>
                 <a href="#" class="custumer-valuation-link"> (35k) </a>
                 <!-- customer valuation popover -->
                 <div class="custumer-valuation-popover">
                   <div class="custumer-valuation-popover-content">
                     <h2 class="custumer-valuation-popover-head">
                       <span class="americanegle-rating-star">
-                        <img src="images/Pasted image.png" width="60px" height="20px">
+                        <img src="images/arrows/Pasted-image.png" width="60" height="20" alt="pasted image">
                       </span>
                       <span class="popover-head">4.3 out of 5</span>
                     </h2>
@@ -2000,7 +2025,6 @@
       </div>
     </div>
   </div>
-  </div>
   <!-- related searches section -->
   <section class="related-search">
     <div class="related-search-container">
@@ -2008,36 +2032,36 @@
       <div class="related-search-amazon-egypt-container">
         <div class="related-search-amazon-egypt">
           <a href="#" class="related-search-amazon-egypt-link">
-            <img src="images/search icon.png" class="search-icon">Amazon Egypt
+            <img src="images/headerpictures/search-icon.png" class="search-icon" alt="search icon">Amazon Egypt
           </a>
         </div>
         <div class="related-search-amazon-eg">
           <a href="#" class="related-search-amazon-eg-link">
-            <img src="images/search icon.png" class="search-icon">Amazon eg
+            <img src="images/headerpictures/search-icon.png" class="search-icon" alt="search icon">Amazon eg
           </a>
         </div>
       </div>
       <div class="related-search-amazon-souc-container">
         <div class="related-search-amazon-souc">
           <a href="#" class="related-search-amazon-souc-link">
-            <img src="images/search icon.png" class="search-icon">امازون سوق
+            <img src="images/headerpictures/search-icon.png" class="search-icon" alt="search icon">امازون سوق
           </a>
         </div>
         <div class="related-search-amazon-airpods">
           <a href="#" class="related-search-amazon-airpods-link">
-            <img src="images/search icon.png" class="search-icon">airpods
+            <img src="images/headerpictures/search-icon.png" class="search-icon" alt="search icon">airpods
           </a>
         </div>
       </div>
       <div class="related-search-amazon-souc-container">
         <div class="related-search-amazon-usa">
           <a href="#" class="related-search-amazon-usa-link">
-            <img src="images/search icon.png" class="search-icon">Amazon USA
+            <img src="images/headerpictures/search-icon.png" class="search-icon" alt="search icon">Amazon USA
           </a>
         </div>
         <div class="related-search-amazon-a54">
           <a href="#" class="related-search-amazon-a54-link">
-            <img src="images/search icon.png" class="search-icon">a54
+            <img src="images/headerpictures/search-icon.png" class="search-icon" alt="search icon">
           </a>
         </div>
       </div>
@@ -2063,7 +2087,9 @@
         <li class="page-item">
           <a href="#" class="page-link">3</a>
         </li>
-        <span class="page-item">...</span>
+        <li class="page-item">
+          ...
+        </li>
         <li class="page-item">
           <a href="#" class="page-link-six">6</a>
         </li>
@@ -2083,7 +2109,7 @@
     <div class="contact-container">
       <div class="contact-container-data">
         <div class="contact-with-us-container">
-          <h3 class="contact-container-links-head">Get to Know Us</h3>
+          <h2 class="contact-container-links-head">Get to Know Us</h2>
           <ul class="contact-container-links-list">
             <li class="contact-container-links-list-item">
               <a href="#" class="contact-container-links-list-link">About Amazon</a>
@@ -2098,7 +2124,7 @@
         </div>
         <!-- get to know us/ -->
         <div class="shop-with-us-container">
-          <h3 class="shop-with-us-container-links-head">shop with us</h3>
+          <h2 class="shop-with-us-container-links-head">shop with us</h2>
           <ul class="shop-with-us-container-links-list">
             <li class="shop-with-us-container-links-list-item">
               <a href="#" class="shop-with-us-container-links-list-link">Your Account</a>
@@ -2117,7 +2143,7 @@
         <!-- get to know us/ -->
         <!-- make money with us -->
         <div class="make-money-with-us-container">
-          <h3 class="make-money-with-us-container-links-head">Make Money with Us</h3>
+          <h2 class="make-money-with-us-container-links-head">Make Money with Us</h2>
           <ul class="make-money-with-us-container-links-list">
             <li class="make-money-with-us-container-links-list-item">
               <a href="#" class="make-money-with-us-container-links-list-link">Protect and build your brand</a>
@@ -2139,7 +2165,7 @@
         <!-- make money with us/ -->
         <!-- let us help you -->
         <div class="let-us-help-you-container">
-          <h3 class="let-us-help-you-container-links-head">Let Us Help You</h3>
+          <h2 class="let-us-help-you-container-links-head">Let Us Help You</h2>
           <ul class="let-us-help-you-container-links-list">
             <li class="let-us-help-you-container-links-list-item">
               <a href="#" class="let-us-help-you-container-links-list-link">Help</a>
@@ -2168,19 +2194,19 @@
       <div class="amazon-footer-container">
         <div class="amazon-footer-logo">
           <a href="#" class="amazon-footer-logo-link">
-            <img src="images/amazonfooterlogo.png" width="80px" height="37px">
+            <img src="images/pictureslogo/amazonfooterlogo.png" width="80" height="37" alt="amazonfooter">
           </a>
         </div>
         <div class="amazon-footer-language">
           <a href="#" class="amazon-footer-language-link">
-            <img src="images/earthlogo.png" width="18px" height="18px" class="amazon-footer-language-link-earth">
+            <img src="images/pictureslogo/earthlogo.png" width="18" height="18" class="amazon-footer-language-link-earth" alt="earth logo">
             <span class="amazon-footer-language-link-text">English</span>
-            <img src="images/amazonsprite-3.png" width="18px" height="18px" class="amazon-footer-language-link-button">
+            <img src="images/arrows/amazonsprite-3.png" width="18" height="18" class="amazon-footer-language-link-button" alt="amazon sprite">
           </a>
         </div>
         <div class="amazon-footer-flag">
           <a href="#" class="amazon-footer-flag-link">
-            <img src="images/Egypt_flag_300.png" width="15px" height="10px" class="amazon-footer-flag-imge">
+            <img src="images/headerpictures/Egypt_flag_300.png" width="15" height="10" class="amazon-footer-flag-imge" alt="Egypt flag">
             <span class="amazon-footer-flag-link-text">Egypt</span>
           </a>
         </div>
@@ -2195,8 +2221,8 @@
           <a href="#" class="amazon-footer-service-list-link">
             Amazon Advertising<br>
             <span class="amazon-footer-service-list-link-span">
-            Find, attract, and<br>
-            engage customers
+              Find, attract, and<br>
+              engage customers
             </span>
           </a>
         </div>
@@ -2204,8 +2230,8 @@
           <a href="#" class="amazon-footer-service-list-link">
             on Amazon<br>
             <span class="amazon-footer-service-list-link-span">
-            Start Selling Online<br>
-            Today!
+              Start Selling Online<br>
+              Today!
             </span>
           </a>
         </div>
@@ -2213,8 +2239,8 @@
           <a href="#" class="amazon-footer-service-list-link">
             Web Services<br>
             <span class="amazon-footer-service-list-link-span">
-            Scalable Cloud<br>
-            Computing Services
+              Scalable Cloud<br>
+              Computing Services
             </span>
           </a>
         </div>
@@ -2222,8 +2248,8 @@
           <a href="#" class="amazon-footer-service-list-link">
             Goodreads<br>
             <span class="amazon-footer-service-list-link-span">
-            Book reviews&<br>
-            recommendations
+              Book reviews&<br>
+              recommendations
             </span>
           </a>
         </div>
@@ -2231,8 +2257,8 @@
           <a href="#" class="amazon-footer-service-list-link">
             Audible<br>
             <span class="amazon-footer-service-list-link-span">
-            Download<br>
-            Audio Books
+              Download<br>
+              Audio Books
             </span>
           </a>
         </div>
@@ -2240,8 +2266,8 @@
           <a href="#" class="amazon-footer-service-list-link">
             IMDb<br>
             <span class="amazon-footer-service-list-link-span">
-            Movies, TV<br>
-            & Celebrities
+              Movies, TV<br>
+              & Celebrities
             </span>
           </a>
         </div>
@@ -2250,7 +2276,7 @@
             Alexa<br>
             <span class="amazon-footer-service-list-link-span">
               Actionable Analytics<br>
-            for the Web
+              for the Web
             </span>
           </a>
         </div>
@@ -2258,8 +2284,8 @@
           <a href="#" class="amazon-footer-service-list-link">
             Shopbop<br>
             <span class="amazon-footer-service-list-link-span">
-            Designer<br>
-            Fashion Brands
+              Designer<br>
+              Fashion Brands
             </span>
           </a>
         </div>
@@ -2286,5 +2312,4 @@
   </footer>
 
 </body>
-
 </html>

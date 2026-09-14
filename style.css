@@ -15,17 +15,19 @@
 /*@font-face {
     font-family: 'Amazon Ember';
     font-weight: 700;
-    src: url(/fonts/KFPk-9IF4FqAqY-.woff2) format(woff2);
+    src: url(/fonts/amazonember-bold-.woff2) format(woff2);
+
 }*/
-/*@font-face {
+/* @font-face { 
     font-family: 'Amazon Ember';
     font-weight: 500;
-    src: url(/fonts/VjTR4RqBzY0mUYx.woff2) format(woff2);
-}*/
+    src: url(/fonts/amazonember500.woff2) format(woff2);
+    
+ } */
 @font-face {
     font-family: 'Amazon Ember';
     font-weight: 200;
-    src: url(Dv1WQ5DdeMS5qP7.woff2) format("woff2"), url(./e0LnMbFWJC-TMQz.woff) format("woff");
+    src: url(fonts/amazonember200.woff2) format("woff2"), url(fonts/amazonember200.woff) format("woff");
 }
 
 body {
@@ -52,7 +54,7 @@ body {
 
 .mainnav-logo {
     display: block;
-    background: url("amazonlogo background.png");
+    background: url("images/pictureslogo/amazonlogobackground .png");
     background-position: 4px 333px;
     width: 7rem;
     height: 3.125rem;
@@ -84,7 +86,7 @@ body {
 
 .mainnav-logo {
     display: block;
-    background: url("amazonlogo background .png");
+    background: url("images/pictureslogo/amazonlogobackground .png");
     background-position: 4px 333px;
     width: 7rem;
     height: 3.125rem;
@@ -251,7 +253,7 @@ body {
     display: block;
     width: 2.8125rem;
     height: 2.5rem;
-    background-image: url("amazonlogo background .png");
+    background-image: url("images/pictureslogo/amazonlogobackground .png");
     background-position: 2px 170px;
     margin-right: 0px;
     margin-left: auto;
@@ -476,7 +478,7 @@ input[type="radio"] {
     height: 3.4375rem;
     margin-top: -4px;
     margin-left: 1.1875rem;
-    border-color: 1.2px solid transparent;
+    border-color: 1.2px solid ;
 }
 
 .singin-internal {
@@ -524,7 +526,7 @@ input[type="radio"] {
     border-right: 3px solid;
     border-top: 3px solid #9a9da1;
     margin-left: -16px;
-    margin-top: -6px;
+    margin-top: 15px;
 }
 
 .signin:hover {
@@ -764,7 +766,7 @@ input[type="radio"] {
     display: block;
     width: 4.1857rem;
     height: 2.884rem;
-    background: url("amazonlogo background .png");
+    background: url("images/pictureslogo/amazonlogobackground .png");
     background-position: -702px 122px;
     margin-top: -1.5625rem;
     margin-left: -1px;
@@ -817,8 +819,8 @@ input[type="radio"] {
     align-items: center;
     width: 30px;
     height: 32px;
-    background-image: url("amazonlogo background .png");
-    background-position: -167px 202px;
+    background-image: url("images/headerpictures/humbergermenu.png");
+    background-position: -184px 177px;
     font-size: 14px;
     margin-top: 4px;
 }
@@ -1046,7 +1048,7 @@ input[type="radio"] {
     display: flex;
     align-items: center;
     margin-left: 9px;
-    margin-top: 2px;
+    margin-top: -14px;
     width: 936px;
     height: 36px;
 
@@ -1067,7 +1069,7 @@ input[type="radio"] {
     font-size: 14px;
     font-family: "Amazon Ember";
     color: #dd7000;
-    font-style: 700;
+    font-weight: 700;
 }
 
 .featured {
@@ -1173,7 +1175,7 @@ select {
     display: inline-block;
     width: 27px;
     height: 12px;
-    background-image: url(images/asidearrow.png);
+    background-image: url(images/spritepictures/asidearrow.png);
     background-position: -222px -169px;
     margin-left: 2px;
 }
@@ -2051,7 +2053,9 @@ select {
     column-gap: 10px;
 }
 
-
+.printer {
+    display: block;
+}
 
 .printer-imag {
     display: block;
@@ -3495,7 +3499,7 @@ select {
 .pagiation-container {
     width: 395px;
     height: 45px;
-    margin-top: -20pxpx;
+    margin-top: -20px;
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -3933,7 +3937,7 @@ select {
 .amazon-footer-condition-list-item {
     list-style-type: none;
     line-height: 1;
-    font-size: 12;
+    font-size: 12px;
 }
 
 .amazon-footer-condition-list-item:hover {
