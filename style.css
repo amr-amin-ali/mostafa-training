@@ -33,6 +33,203 @@
 body {
     margin: 0;
     font-family: 'Amazon Ember';
+    overflow-x: hidden;
+}
+
+.mobile-header {
+    display: none;
+    width: 100%;
+    height: 136px;
+    background-color: #232f3e;
+}
+
+.mobile-header-data {
+    width: 100%;
+}
+
+.mobile-humberger-icon {
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
+
+.mobile-amazon-logo {
+    margin-left: -6px;
+    margin-bottom: 6px;
+}
+
+.mobile-amazon-logo-text {
+    display: inline-block;
+    color: var(--white-color);
+    font-family: 'Amazon Ember';
+    margin-left: -10px;
+    margin-top: -19px;
+    vertical-align: text-top;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mobile-header-sigin {
+    display: inline-block;
+    width: 49%;
+    height: 48px;
+}
+
+.mobile-header-logo {
+    display: inline-block;
+    width: 49%;
+    height: 48px;
+    margin-left: 4px;
+}
+
+.mobile-header-sigin-link {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: 'Amazon Ember';
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: text-top;
+    margin-top: -16px;
+    margin-left: 18px;
+}
+
+.mobile-header-sigin-arrow {
+    font-size: 10px;
+    margin-left: -6px;
+    font-weight: bold;
+    vertical-align: text-top;
+    margin-top: -14px;
+}
+
+.mobile-header-sigin-text {
+    display: inline-block;
+    font-family: 'Amazon Ember';
+    color: var(--white-color);
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: text-top;
+    margin-top: -15px;
+}
+
+.mobile-header-sigin-logo {
+    display: inline-block;
+    margin-top: -10px;
+    margin-left: -8px;
+
+
+}
+
+.mobile-header-shopping-car-link {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white-color);
+    vertical-align: text-top;
+    margin-top: -27px;
+    margin-left: -5px;
+}
+
+.mobile-header-shopping-car {
+    margin-left: -38px;
+}
+
+.mobile-header-input-car {
+    display: inline-block;
+    font-family: 'Amazon Ember';
+    color: #f08804;
+    font-size: 13px;
+    font-weight: bold;
+    vertical-align: text-top;
+    margin-top: -19px;
+    margin-left: 27px;
+}
+
+.mobile-header-searchbox-form {
+    width: 85%;
+    margin-left: 16px;
+    margin-top: -21px;
+}
+
+.mobile-header-searchbox-input {
+    width: 295px;
+    height: 43px;
+    border-radius: 8px;
+    border: none;
+    margin-top: -30px;
+    margin-left: -5px;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 14px;
+    font-family: 'Amazon Ember';
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.mobile-header-searchbox-button {
+    display: inline-block;
+    width: 50px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--search-icon-background-color);
+    margin-top: -45px;
+    margin-left: 242px;
+    vertical-align: text-top;
+}
+
+.mobile-header-searchbox-icon {
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.mobile-header-location {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    margin-top: -17px;
+    background-color: #374659;
+}
+
+.mobile-header-location-text {
+    color: var(--white-color);
+    font-family: 'Amazon Ember';
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+
+.mobile-header-location-icon {
+    margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .mobile-header {
+        display: block;
+        width: 100%;
+    }
+
+    .mobile-header-logo {
+        width: 48%;
+    }
+
+    .mobile-header-sigin {
+        width: 48%;
+    }
+
+    .search-box-form {
+        width: 100%;
+        margin-left: 17px;
+    }
+
+    .mobile-header-searchbox-input {
+        width: 100%;
+    }
+
+    .mobile-header-searchbox-button {
+        margin-left: 90%;
+    }
 }
 
 .main-nav {
@@ -478,7 +675,7 @@ input[type="radio"] {
     height: 3.4375rem;
     margin-top: -4px;
     margin-left: 1.1875rem;
-    border-color: 1.2px solid ;
+    border-color: 1.2px solid;
 }
 
 .singin-internal {
@@ -1018,7 +1215,7 @@ input[type="radio"] {
 }
 
 .amazon-featured {
-    display: block;
+    display: none;
     width: 100%;
     height: 40px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -1128,8 +1325,9 @@ select {
     width: 271.61px;
     height: 2000px;
 }
+
 @media (max-width:20rem) {
-    .aside{
+    .aside {
         display: none;
     }
 
@@ -1167,7 +1365,8 @@ select {
 .aside-product-checkboxes-fullfilled-form {
     display: inline-block;
 }
-.aside-product-checkboxes-fullfilled-span{
+
+.aside-product-checkboxes-fullfilled-span {
     margin-left: -15px;
 }
 
@@ -2046,7 +2245,7 @@ select {
 
 .product-grid-container {
     display: grid;
-    grid-template-columns: repeat(4,25%);
+    grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(4, 562.59px);
     grid-template-areas: "main main main main"
         "main main main main";
@@ -3865,6 +4064,7 @@ select {
     margin-left: 12px;
     margin-right: 12px;
 }
+
 .amazon-footer-service-list-link:hover {
     text-decoration: underline white;
 }
@@ -3881,14 +4081,16 @@ select {
     font-family: "Amazon Ember";
     font-weight: 200;
 }
-.amazon-footer-servise-container{
+
+.amazon-footer-servise-container {
     display: flex;
     align-items: center;
     width: 100%;
     height: 245px;
     background-color: #131a22;
 }
-.amazon-footer-service-links{
+
+.amazon-footer-service-links {
     display: block;
     width: 70%;
     height: 200px;
@@ -3896,12 +4098,13 @@ select {
     font-family: "Amazon Ember";
 
 }
-.amazon-footer-servise{
-   display: inline-block;
-   width: 23%;
-   height: 68px; 
-   margin-top: 30px;
-   margin: 0;
+
+.amazon-footer-servise {
+    display: inline-block;
+    width: 23%;
+    height: 68px;
+    margin-top: 30px;
+    margin: 0;
 }
 
 .amazon-footer-condition {
@@ -3957,4 +4160,14 @@ select {
     font-size: 14px;
     margin-left: 40px;
 
+}
+
+@media (max-width: 768px) {
+    .secend-nav {
+        display: none;
+    }
+
+    .main-nav {
+        display: none;
+    }
 }
