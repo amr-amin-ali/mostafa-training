@@ -192,7 +192,7 @@ body {
     border-radius: 0.375rem;
 }
 
-.ALL {
+.all {
     margin-left: 4px;
     margin-top: 2px;
     font-size: 12px;
@@ -201,7 +201,7 @@ body {
     font-family: 'Amazon Ember';
 }
 
-.All-drobdown {
+.all-drobdown {
     display: flex;
     width: 5.06rem;
     height: 2.5rem;
@@ -215,7 +215,7 @@ body {
     height: 40px;
 }
 
-.All-button {
+.all-button {
     margin-left: 0.5rem;
     display: inline-block;
     width: 2px;
