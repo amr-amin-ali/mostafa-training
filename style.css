@@ -2220,7 +2220,7 @@ select {
 }
 
 .product-grid-container {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(4, 562.59px);
     grid-template-areas: "main main main main"
@@ -4149,22 +4149,70 @@ select {
     .products-container{
         height: 4000px;
     }
-    .printer,.comfort{
+    .printer,.comfort,.aladl-tec-phone , .towel ,.kindel , .blender-cup-information{
         display: flex;
         flex-direction: row;
          
     }
-    .printer-imag-photo ,.comfort-img{
+    .towel-img{
+        margin-top: 46px;
+    }
+    .towel-option{
+        width: 200px;
+    }
+    .towel-option-link-container{
+        width: 192px;
+    }
+    .towel-data{
+        font-size: 10px;
+        margin-left: 14px;
+    }
+    .printer-imag-photo ,.comfort-img ,.aladl-tec-phone-img , .aladl-tec-photo , .towel-img 
+    , .kindel-photo {
         width: 100px;
         height: 73px;
     }
-    .printer-data-link{
+    .blender-cup-photo{
+        width: 100px;
+        height: 150px;
+        margin-left: -75px;
+    }
+    .blender-cup-information-links{
+        margin-left: 10px;
+        margin-top: 1px;
+        line-height: 90%;
+    }
+    .blender-cup-cart-link-container{
+        width:136px;
+    }
+    .blender-cup-information{
+        margin-left: 10px;
+    }
+    .blender-cup-cart{
+        width: 140px;
+    }
+    .blender-cup-information{
+        margin-left: 11px;
+    }
+
+    .kindel-tab-specification{
+        font-size: 10px;
+    }
+    .kindel-data-container{
+        margin-left: 17px;
+    }
+    .bought-nomber ,.kindel-discount-nomber, .kidel-tablet-discount-nomber ,.sup ,.kindel-free-delevary ,.kindel-discount-day ,.free-delvary-day ,.kindel-tablet
+    , .blender-cup-information-link , .blender-cup-price-nomber , .blender-cup-discount , .blender-cup-discount-presentage , .blender-cup-discount-day , .blender-cup-discount-month
+     , .blender-cup-discount-info ,.wirelwss-earphones-price ,.wirelwss-earphones-price-zero ,.wireless-earphone-free-delevary ,.wireless-earphone-discount-day ,.wireless-earphone-stock ,.wifi-jack-discount-nomber ,.study-disk-discount-nomber {
+        font-size: 10px;
+    }
+    .printer-data-link ,.aladl-tec-discount {
         text-decoration: none;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 600;
         line-height: 100%;
     }
-    .comfort-description{
+    .comfort-description ,{
         font-size: 10px;
     }
     .printer-discount{
@@ -4175,9 +4223,6 @@ select {
     .printer-cart{
         margin-top: -95px;
         width: 140px;
-    }
-    body{
-        margin: 0px;
     }
 
 
@@ -4229,7 +4274,7 @@ select {
         width: 138px;
         margin-left: 40px;
     }
-    .sponsored{
+    .sponsored , .sponsored-aladl {
         display: none;
     }
     .max-comfort{
@@ -4242,9 +4287,18 @@ select {
         margin-top: 145px;
         width: 140px;
         margin-left: -143px;
-        margin-top: 165px;
+        margin-top: 205px;
     }
     .comfort-cart-link-container{
         margin-left: -60px;
+    }
+    .aladl-data-container{
+        margin-left: 20px;
+    }
+    .aladl-tec-data{
+        margin-top: -1px;
+    }
+    .aladl-tec-discount-persntage{
+        font-size:  12px;
     }
 }
