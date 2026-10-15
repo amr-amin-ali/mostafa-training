@@ -33,7 +33,6 @@
 body {
     margin: 0;
     font-family: 'Amazon Ember';
-    overflow-x: hidden;
 }
 
 .mobile-header {
@@ -1292,8 +1291,7 @@ select {
 .products-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 4500px;
+    height: auto;
 }
 
 .aside {
@@ -2196,7 +2194,7 @@ select {
 .product {
     display: inline-block;
     width: 1070.39px;
-    height: 2000px;
+    height: 4500px;
 }
 
 .product-head {
@@ -2220,7 +2218,7 @@ select {
 }
 
 .product-grid-container {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(4, 562.59px);
     grid-template-areas: "main main main main"
@@ -4145,26 +4143,122 @@ select {
         display: flex;
         flex-direction: column;
         width: 100%;
+        height: auto;
     }
-    .products-container{
-        height: 4000px;
+    .towel-img{
+        margin-top: 46px;
     }
-    .printer,.comfort{
+    .towel-option{
+        width: 200px;
+    }
+    .towel-option-link-container{
+        width: 192px;
+    }
+    .towel-data{
+        font-size: 10px;
+        margin-left: 14px;
+    }
+    .printer-imag-photo ,.comfort-img ,.aladl-tec-phone-img , .aladl-tec-photo , .towel-img 
+    , .kindel-photo , .food-photo , .smart-watch-photo
+    , .salon-chair-photo
+    , .hand-mixer-photo ,.kindel-colorsoft-photo
+    , .shelf-locker-photo , .wireless-earphones-photo ,
+    .wifi-jack-photo , .study-disk-photo{
+        width: 100px;
+        height: 73px;
+    }
+    .study-disk-photo{
+        margin-top: 20px;
+    }
+    .smart-watch-photo,
+    .printer ,.comfort ,.aladl-tec-phone , .towel ,.kindel 
+    , .blender-cup-information , .food-group , .smart-watch
+    , .hand-mixer-container
+    , .salon-chair-container , .shelf-locker-container
+    , .kindel-whitepep-container , .wirelwss-earphones-container
+    , .wifi-jack-container , .study-disk-container ,.salon-container
+    {
         display: flex;
         flex-direction: row;
          
     }
-    .printer-imag-photo ,.comfort-img{
-        width: 100px;
-        height: 73px;
+    .bought-nomber ,.kindel-discount-nomber, .kidel-tablet-discount-nomber ,.sup ,.kindel-free-delevary ,.kindel-discount-day ,.free-delvary-day ,.kindel-tablet
+    , .blender-cup-information-link , .blender-cup-price-nomber , .blender-cup-discount , .blender-cup-discount-presentage , .blender-cup-discount-day , .blender-cup-discount-month
+     , .blender-cup-discount-info ,.wirelwss-earphones-price ,.wirelwss-earphones-price-zero ,.wireless-earphone-free-delevary ,.wireless-earphone-discount-day ,.wireless-earphone-stock ,.wifi-jack-discount-nomber ,.study-disk-discount-nomber, .kindel-tab-specification , .food-price-nomber , .food-discount-presentage
+    , .food-discount-info , .food-discount-day , .food-discount-month , .smart-watch-data-link
+     , .kindel-discount , .free-delvary-day , .left-avaliabel
+     , .hand-mixer-discount-nomber , .hand-mixer-free-delevary , .hand-mixer-discount-day
+      , .hand-mixer-discount-presentage , .hand-mixer-data , .left-avaliable , .salon-chair-head , .salon-chair-information , .current-avaliable
+     , .salon-chair-discount-nomber , .salon-chair-discount-presentage
+     , .salon-chair-delevary-day , .salon-chair-delevary-month
+     , .shelf-locker-discount-nomber , .shelf-locker-delevary-day , .shelf-locker-delevary-month
+     , .kindel-whitepep ,.kindel-tablet-discount-nomber
+     , .shelf-locker-credit-cards-discount ,.wirelwss-earphones-head ,.wirelwss-earphones-price ,.wirelwss-earphones-price-zero ,.wireless-earphone-free-delevary ,.wireless-earphone-discount-day ,.wireless-earphone-stock
+     , .wifi-jack-discount-nomber ,.study-disk-discount-nomber ,
+     .kindel-tab-specification ,
+     .food-price-nomber ,.food-discount-presentage ,
+     .food-discount , .staudy-disk-data-link , .staudy-disk-data-head{
+        font-size: 10px;
     }
-    .printer-data-link{
+    .smart-watch-data-head{
+        margin-top: 40px;
+    }
+    .blender-cup-photo{
+        width: 100px;
+        height: 150px;
+    }
+    .blender-cup-information-links{
+        margin-left: 10px;
+        margin-top: 1px;
+        line-height: 90%;
+    }
+    .blender-cup-cart-link-container , .food-cart-link , .kindel-cart-link , .salon-chair-cart
+    , .shelf-locker-cart , .wireless-earphone-cart , .wifi-jack-cart , .study-disk-cart
+    .salon-chair-cart-link-container, .aladl-tec-cart , .study-disk-earphone-cart{
+        width:136px;
+    }
+    .food-cart-link , .kindel-cart-link{
+        margin-left: -29px;
+    }
+    .food-data , .smart-watch-data , .hand-mixer-data
+    , .salon-chair-data,.kindel-colorsoft-data-container
+    , .shelf-locker-data, .hand-mixer-data,
+     .wirelwss-earphones-data, .wifi-jack-data,
+      .study-disk-data , .staudy-disk-data{
+        margin-left: 22px;
+    }
+    .kindel-cart-link{
+        padding-top: 7px;
+    }
+    .bleender-cup-container{
+        margin-left: 67px;
+    }
+    .blender-cup-information , .food-photo{
+        margin-left: 10px;
+    }
+    .blender-cup-cart , .kindel-cart , .food-cart , .kandel-cart
+     , .salon-chair-cart-link-container , .shelf-locker-cart , .wireless-earphone-cart
+      , .wifi-jack-cart , .study-disk-cart, .shelf-locker-cart-link-container, .wireless-earphone-cart
+     , .aladl-tec-cart-link-container,
+      .wireless-earphone-cart-link-container , .study-disk-earphone-cart-link{
+        width: 140px;
+    }
+    .blender-cup-information {
+        margin-left: 11px;
+    }
+
+    .kindel-data-container{
+        margin-left: 17px;
+        line-height: 2;
+    }
+    .printer-data-link ,.aladl-tec-discount , .food-data-link, .shelf-locker-data-link
+    , .wirelwss-earphones-data-link , .wifi-jack-data-link {
         text-decoration: none;
-        font-size: 13px;
+        font-size: 10px;
         font-weight: 600;
         line-height: 100%;
     }
-    .comfort-description{
+    .comfort-description {
         font-size: 10px;
     }
     .printer-discount{
@@ -4175,9 +4269,6 @@ select {
     .printer-cart{
         margin-top: -95px;
         width: 140px;
-    }
-    body{
-        margin: 0px;
     }
 
 
@@ -4229,7 +4320,7 @@ select {
         width: 138px;
         margin-left: 40px;
     }
-    .sponsored{
+    .sponsored , .sponsored-aladl {
         display: none;
     }
     .max-comfort{
@@ -4242,9 +4333,21 @@ select {
         margin-top: 145px;
         width: 140px;
         margin-left: -143px;
-        margin-top: 165px;
+        margin-top: 205px;
     }
     .comfort-cart-link-container{
         margin-left: -60px;
+    }
+    .aladl-data-container{
+        margin-left: 20px;
+    }
+    .aladl-tec-data{
+        margin-top: -1px;
+    }
+    .aladl-tec-discount-persntage{
+        font-size:  12px;
+    }
+    .related-search , .pagination ,.pagiation-container{
+        display: none;
     }
 }
